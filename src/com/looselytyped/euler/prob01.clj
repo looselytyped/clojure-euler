@@ -1,5 +1,6 @@
 (ns
-    ^{:doc "Add all the natural numbers below one thousand that are multiples of 3 or 5."}
+    ^{:doc "Add all the natural numbers below one thousand that are
+    multiples of 3 or 5."}
   com.looselytyped.euler.prob01)
 
 (defn multiple-of-3-or-5?
