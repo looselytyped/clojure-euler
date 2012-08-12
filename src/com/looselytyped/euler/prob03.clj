@@ -8,7 +8,7 @@
 
 (defn factors
   [number]
-  (set (for [n (range 1 (inc (int (Math/ceil (Math/sqrt number)))))
+  (set (for [n (range 1 (inc (int (Math/floor (Math/sqrt number)))))
              :when (factor? number n)] n)))
 
 (defn prime?
